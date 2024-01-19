@@ -8,7 +8,7 @@
     delaycompress
     ifempty
     dateext
-    dataformat -%Y%m%d-%s
+    dateformat -%Y%m%d-%s
     missingok
     postrotate
         /usr/bin/systemctl reload vault 2> /dev/null || true
